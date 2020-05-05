@@ -19,6 +19,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
          The N entries of this array define N + 1 control points as follows:
          (1-based arrays)
@@ -286,7 +287,6 @@
          to the corresponding value of the array. The new brightening hysteresis constraint value
          is the n-th element of config_ambientBrighteningThresholds, and the new darkening
          hysteresis constraint value is the n-th element of config_ambientDarkeningThresholds.
-
          The (zero-based) index is calculated as follows: (MAX is the largest index of the array)
          condition                       calculated index
          value < level[0]                0
@@ -345,6 +345,5 @@
          OnePlus 7 Pro. This HAL expects a different format for the data instead of the usual (ms)
          timing(the duration which the vibrator is expected to vibrate for). -->
     <bool name="config_hasOnePlusHapticMotor">true</bool>
-
 
 </resources>
