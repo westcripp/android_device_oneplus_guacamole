@@ -240,6 +240,7 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientBrighteningThresholds">
+<<<<<<< HEAD
         <item>9000</item> <!-- 1 -->
         <item>8000</item> <!-- 4 -->
         <item>7000</item> <!-- 12 -->
@@ -255,6 +256,25 @@
         <item>1500</item>
         <item>1000</item>
         <item>1000</item>
+=======
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>300</item>
+        <item>300</item>
+        <item>300</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+>>>>>>> guacamole: overlay: Update hysteresis name for Q
     </integer-array>
 
     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
@@ -264,6 +284,7 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientDarkeningThresholds">
+<<<<<<< HEAD
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -279,6 +300,25 @@
         <item>0</item>
         <item>0</item>
         <item>0</item>
+=======
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>400</item>
+        <item>400</item>
+        <item>400</item>
+        <item>400</item>
+        <item>400</item>
+        <item>500</item>
+        <item>500</item>
+>>>>>>> guacamole: overlay: Update hysteresis name for Q
     </integer-array>
 
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
