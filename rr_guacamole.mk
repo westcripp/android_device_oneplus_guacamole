@@ -14,9 +14,6 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-# Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_guacamole
 PRODUCT_DEVICE := guacamole
@@ -42,3 +39,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
+RR_BUILDTYPE := Official
+# FOD
+TARGET_USES_FOD_HACK := true
+
