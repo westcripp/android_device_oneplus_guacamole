@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_guacamole
 PRODUCT_DEVICE := guacamole
